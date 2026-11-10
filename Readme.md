@@ -436,36 +436,35 @@ Saya ingin kamu menerapkan sistem checkpoint. Artinya, setiap minggu harus memen
 Checklist progres RainPredict
 Minggu 1
 Minggu 1
-0/4 selesai
-Struktur folder sudah benar
-Sumber dan dokumentasi dataset diketahui
-Kolom dan satuan dipahami
-Identitas stasiun sudah diperiksa
+4/4 selesai [x]
+- [x] Struktur folder sudah benar
+- [x] Sumber dan dokumentasi dataset diketahui
+- [x] Kolom dan satuan dipahami
+- [x] Identitas stasiun sudah diperiksa
 Checklist dapat kamu tandai selama sesi ini.
 Reset minggu ini
 7. Kondisi project kamu saat ini
 Berdasarkan pengerjaan kita sejauh ini:
 Posisi pengerjaan
-Minggu 1–2
-Fondasi dan pemeriksaan awal dataset
+Minggu 1 Selesai -> Siap masuk ke Minggu 2 (Data Cleaning)
 Membaca dataset cuaca.csv
 Selesai
 Mengidentifikasi 4 kolom
 Selesai
 Mengidentifikasi 3 SOUID
 Selesai
-Konversi nilai curah hujan
-Sudah dilakukan
-Konversi tanggal
-Sudah dilakukan
-Memeriksa kode kualitas
-Belum diverifikasi
-Memastikan stasiun yang digunakan
-Belum selesai
+Konversi nilai curah hujan (satuan 0.1 mm terkonfirmasi di dokumentasi)
+Siap diimplementasikan di Minggu 2
+Konversi tanggal (format YYYYMMDD terkonfirmasi)
+Siap diimplementasikan di Minggu 2
+Memeriksa kode kualitas (0=valid, 1=suspect, 9=missing terkonfirmasi)
+Selesai diverifikasi
+Memastikan stasiun yang digunakan (STAID 133, Stasiun Klimatologi Semarang)
+Selesai
 EDA dan visualisasi
-Belum
+Belum (Minggu 3)
 Pemodelan
-Belum
+Belum (Minggu 5)
 Ada satu hal yang perlu kita jaga: pastikan sumber asli cuaca.csv dan dokumentasinya sudah diketahui. Jangan menganggap konversi RR menjadi RR_mm dengan pembagian 10 sudah benar sebelum satuan pada dokumentasi sumber dikonfirmasi. Begitu juga kode kualitas Q_RR;; harus diperiksa sebelum data dinyatakan valid.
 8. Aturan utama kita selama project
 Mulai sekarang, saya menyarankan pola kolaborasi seperti ini:
